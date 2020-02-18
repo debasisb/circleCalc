@@ -1,3 +1,4 @@
+// create an express object from the express package
 const express = require("express");
 const bodyParser = require("body-parser");
 

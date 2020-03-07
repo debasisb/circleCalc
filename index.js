@@ -27,6 +27,6 @@ app.post("/", function(req, res){
 //this gets the response from the web page to this placeholder
 // COMMENT out this code in Repl, as this is not running on localhost:3000
 
-// app.listen(3000, function() {
-// console.log ("Server is running on port 3000")
-// });
+app.listen(3000, function() {
+console.log ("Server is running on port 3000")
+});

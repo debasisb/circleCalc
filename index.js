@@ -18,7 +18,7 @@ app.post("/", function(req, res){
   var radCircle = parseFloat(req.body.n1);;
 
 // does the computation of the input variables, as numbers
-    var areaCircle = Math.PI * Math.pow(radCircle, 2);
+    var areaCircle = Math.PI * Math.pow(radCircle, 2);        // formulas work
     var circumCircle = 2 * Math.PI * radCircle;
 
 // sends the results back to the web page as string
